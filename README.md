@@ -1,19 +1,19 @@
 # GGMP
 Population-based survey linking gut microbiome to economic development and metabolic syndrome
 ################################################################################################################
-------------------------------------------Introduction---------------------------------------------------------
+## Introduction
 Analysis pipeline for: Population-based survey linking gut microbiome to economic development and metabolic syndrome
 
-------------------------Copyright----------------------
+### Copyright
   Copyright:     Prof. Hong-Wei Zhou
 Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine,
                    Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282
       Email:     biodegradation@gmail.com
-------------------------Author-------------------------
+### Author
      Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He 
 Last update:     2017-04-18
       Email:     328093402@qq.com
-------------------------Index--------------------------
+### Index
 1 Environment
     1.1 System
         1.1.1 System Platform
@@ -57,7 +57,7 @@ Last update:     2017-04-18
             RAM:      >10G
       Hard disk:      >2T
 --------------------------------------------------------
-#########################################################
+
 1.3 R
 -------------------------------------------------------
 1.3.1 R version
@@ -85,7 +85,6 @@ Last update:     2017-04-18
       pscl
       robustbase
 --------------------------------------------------------
-#########################################################
 1.3 MaAsLin
 -------------------------------------------------------
     (https://bitbucket.org/biobakery/maaslin/)
@@ -108,7 +107,6 @@ Last update:     2017-04-18
     biocViews: Statistics, Metagenomics, Bioinformatics, Software
     Packaged: 2015-04-02 00:28:13 UTC; gweingart
 --------------------------------------------------------
-#########################################################
 1.4 Qiime
 #--------------------------------------------------------
 1.4.1 Qiime version
