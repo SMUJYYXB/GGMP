@@ -5,29 +5,32 @@ Population-based survey linking gut microbiome to economic development and metab
 Analysis pipeline for: Population-based survey linking gut microbiome to economic development and metabolic syndrome
 
 ### Copyright
-  Copyright:     Prof. Hong-Wei Zhou
-Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282
-      Email:     biodegradation@gmail.com
+--------------------------------------------------------
+  Copyright:     Prof. Hong-Wei Zhou   
+Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282   
+      Email:     biodegradation@gmail.com   
+--------------------------------------------------------
       
 ### Author
-     Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He 
-Last update:     2017-04-18
-      Email:     328093402@qq.com
+Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He    
+Last update:     2017-04-18   
+      Email:     328093402@qq.com   
       
 ### Index
-1 Environment
-    1.1 System
-        1.1.1 System Platform
-        1.1.2 Hardware
-    1.2 R
-        1.2.1 R version
-        1.2.2 R libraries
-    1.3 MaAsLin
-    1.4 Qiime
-        1.4.1 Qiime version
-        1.4.2 System information
-        1.4.3 QIIME default reference information
-        1.4.4 QIIME config values
+--------------------------------------------------------
+1 Environment   
+    1.1 System   
+        1.1.1 System Platform   
+        1.1.2 Hardware   
+    1.2 R   
+        1.2.1 R version   
+        1.2.2 R libraries   
+    1.3 MaAsLin   
+    1.4 Qiime   
+        1.4.1 Qiime version   
+        1.4.2 System information   
+        1.4.3 QIIME default reference information   
+        1.4.4 QIIME config values   
     1.5 BBMap   
     
 2 Demo data   
@@ -42,19 +45,19 @@ Last update:     2017-04-18
     4.1 metadata_category.txt   
     4.2 taxa.list   
 5 Direction for use   
+--------------------------------------------------------
 
+# 1 Environment
 
-1 Environment
-
-1.1 System
+## 1.1 System
 -------------------------------------------------------
-1.1.1 System Platform
+### 1.1.1 System Platform
 -------------------------------------------------------
     Platform:      Linux2 
      Version:      Linux version 2.6.32-573.8.1.el6.x86_64 (mockbuild@c6b8.bsys.dev.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-16)(GCC))
           OS:      CentOS release 6.7 (Final)
 --------------------------------------------------------
-1.1.2 Hardware
+### 1.1.2 Hardware
 --------------------------------------------------------
          Cpu(s):      >10
          thread:      >10
@@ -62,14 +65,14 @@ Last update:     2017-04-18
       Hard disk:      >2T
 --------------------------------------------------------
 
-1.3 R
+## 1.3 R
 -------------------------------------------------------
-1.3.1 R version
+### 1.3.1 R version
 -------------------------------------------------------
         Version:      R version 3.2.5(Linux)(2016-04-14)(www.r-project.org)
       Copyright:      (C) 2016 The R Foundation for Statistical Computing
 --------------------------------------------------------
-1.3.2 R libraries
+### 1.3.2 R libraries
 -------------------------------------------------------
       ggplot2
       psych
@@ -89,7 +92,7 @@ Last update:     2017-04-18
       pscl
       robustbase
 --------------------------------------------------------
-1.3 MaAsLin
+### 1.3 MaAsLin
 -------------------------------------------------------
     (https://bitbucket.org/biobakery/maaslin/)
     Package: Maaslin
