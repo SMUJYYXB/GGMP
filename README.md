@@ -375,8 +375,8 @@ Configuring the system environment files and variables based on the (1) Environm
 #--------------------------------------------------------
 5.2 Location of the files
 #--------------------------------------------------------
-put the scripts, bbmap folder and supplementary files in the same path.
-put all fastq files in the same path.
+put the scripts, bbmap folder and supplementary files in the same path
+put all fastq files in the same path
 #--------------------------------------------------------
 #########################################################
 #--------------------------------------------------------
