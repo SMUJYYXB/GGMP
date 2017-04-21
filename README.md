@@ -28,17 +28,20 @@ Last update:     2017-04-18
         1.4.2 System information
         1.4.3 QIIME default reference information
         1.4.4 QIIME config values
-    1.5 BBMap
-2 Demo data
-    2.1 original sequences
-    2.2 metadata
-3 Scripts
-    3.1 Perl Scripts
-    3.2 R Scripts
-4 Supplementary files
-    4.1 metadata_category.txt
-    4.2 taxa.list
-5 Direction for use
+    1.5 BBMap   
+    
+2 Demo data   
+    2.1 original sequences   
+    2.2 metadata   
+    
+3 Scripts   
+    3.1 Perl Scripts   
+    3.2 R Scripts   
+    
+4 Supplementary files   
+    4.1 metadata_category.txt   
+    4.2 taxa.list   
+5 Direction for use   
 
 
 1 Environment
