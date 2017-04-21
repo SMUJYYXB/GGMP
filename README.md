@@ -155,7 +155,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
     For definitions of these settings and to learn how to configure QIIME, see here:
     http://qiime.org/install/qiime_config.html
     http://qiime.org/tutorials/parallel_qiime.html
---------------------------------------------------------
+
     QIIME config values
 
     For definitions of these settings and to learn how to configure QIIME, see here:
@@ -196,7 +196,6 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 --------------------------------------------------------
 
 # 2 Demo data
---------------------------------------------------------
 
 --------------------------------------------------------
 ## 2.1 original sequences
@@ -240,8 +239,6 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
                                 5.Clean_FCHVJVMBCXX_L2_wHAXPI034525-109_1.fq
                                 5.Clean_FCHVJVMBCXX_L2_wHAXPI034525-109_2.fq
 --------------------------------------------------------
-
---------------------------------------------------------
 ## 2.2 metadata
 --------------------------------------------------------
      Filename:       Additional file 2: Table S1
@@ -252,7 +249,6 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 
 
 # 3 Scripts
---------------------------------------------------------
 
 --------------------------------------------------------
 ## 3.1 Perl Scripts
@@ -340,7 +336,6 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
            Author:      Huimin Zheng
 --------------------------------------------------------
 
---------------------------------------------------------
 ## 3.2 R Scripts
 --------------------------------------------------------
 #### 3.2.1 MetS_incidences_between_quartiles.R
@@ -354,12 +349,11 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 
 # 4 Supplementary files
 --------------------------------------------------------
-
---------------------------------------------------------
 ## 4.1 metadata_category.txt
 --------------------------------------------------------
         Supplementary file of maaslin_and_cytoscape.otu.pl
 --------------------------------------------------------
+
 ## 4.2 taxa.list
 --------------------------------------------------------
         Supplementary file of add_taxa_to_map.pl
@@ -372,14 +366,13 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
        Configuring the system environment files and variables based on the (1) Environment
 --------------------------------------------------------
 
---------------------------------------------------------
+
 ## 5.2 Location of the files
 --------------------------------------------------------
       put the scripts, bbmap folder and supplementary files in the same path
       put all fastq files in the same path
 --------------------------------------------------------
 
---------------------------------------------------------
 ## 5.3  modify Relate_metadata_with_microbiota.pl 
 --------------------------------------------------------
 ### 5.3.1  modify  Relate_metadata_with_microbiota.pl 
@@ -388,7 +381,6 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
     line 51:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
 --------------------------------------------------------
 
---------------------------------------------------------
 ## 5.4 Run pipeline
 --------------------------------------------------------
 ### 5.4.1 Preprocessing: From raw sequences to BIOM
