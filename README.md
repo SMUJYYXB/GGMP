@@ -5,11 +5,10 @@ Population-based survey linking gut microbiome to economic development and metab
 Analysis pipeline for: Population-based survey linking gut microbiome to economic development and metabolic syndrome
 
 ### Copyright
---------------------------------------------------------
-  Copyright:     Prof. Hong-Wei Zhou   
+Copyright:     Prof. Hong-Wei Zhou   
 Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282   
       Email:     biodegradation@gmail.com   
---------------------------------------------------------
+
       
 ### Author
 Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He    
@@ -43,7 +42,8 @@ Last update:     2017-04-18
     
 4 Supplementary files   
     4.1 metadata_category.txt   
-    4.2 taxa.list   
+    4.2 taxa.list  
+    
 5 Direction for use   
 --------------------------------------------------------
 
@@ -113,25 +113,23 @@ Last update:     2017-04-18
     biocViews: Statistics, Metagenomics, Bioinformatics, Software
     Packaged: 2015-04-02 00:28:13 UTC; gweingart
 --------------------------------------------------------
-1.4 Qiime
+## 1.4 Qiime
 --------------------------------------------------------
-1.4.1 Qiime version
+### 1.4.1 Qiime version
 --------------------------------------------------------
       Version:      qiime 1.9.1
 --------------------------------------------------------
-1.4.2 System information
+### 1.4.2 System information
 --------------------------------------------------------
                Platform:      Linux2
          Python version:      2.7.10 (default, Dec  4 2015, 15:36:19)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
       Python executable:      /usr/local/bin/python
 --------------------------------------------------------
-1.4.3 QIIME default reference information
+### 1.4.3 QIIME default reference information
 --------------------------------------------------------
 For details on what files are used as QIIME's default references, see here:
 https://github.com/biocore/qiime-default-reference/releases/tag/0.1.3
 --------------------------------------------------------
-Dependency versions
-===================
           QIIME library version:      1.9.1
            QIIME script version:      1.9.1
 qiime-default-reference version:      0.1.3
@@ -152,7 +150,7 @@ qiime-default-reference version:      0.1.3
                   swarm version:      Swarm 1.2.19 [Dec  5 2015 16:48:11]
                           gdata:      Installed.
 --------------------------------------------------------
-1.4.4 QIIME config values
+### 1.4.4 QIIME config values
 --------------------------------------------------------
 For definitions of these settings and to learn how to configure QIIME, see here:
  http://qiime.org/install/qiime_config.html
@@ -190,7 +188,7 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
                       blastall_fp:      blastall
                  seconds_to_sleep:      2
 --------------------------------------------------------
-1.5 BBMap
+## 1.5 BBMap
 -------------------------------------------------------
     BBTools bioinformatics tools, including BBMap.
     Author: Brian Bushnell, Jon Rood
@@ -198,13 +196,12 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
     Version 36.32
 --------------------------------------------------------
 
-
-2 Demo data
-#--------------------------------------------------------
+# 2 Demo data
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-2.1 original sequences
-#--------------------------------------------------------
+--------------------------------------------------------
+## 2.1 original sequences
+--------------------------------------------------------
      format of sequences :      fastq
        Number of fq files:      36
              fq_filenames:      1.Clean_FCHVJVMBCXX_L1_wHAXPI034525-109_1.fq
@@ -243,173 +240,176 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
                                 5.Clean_FCHVJVMBCXX_L1_wHAXPI034525-109_2.fq
                                 5.Clean_FCHVJVMBCXX_L2_wHAXPI034525-109_1.fq
                                 5.Clean_FCHVJVMBCXX_L2_wHAXPI034525-109_2.fq
-#--------------------------------------------------------
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-2.2 metadata
-#--------------------------------------------------------
+--------------------------------------------------------
+## 2.2 metadata
+--------------------------------------------------------
      Filename:       Additional file 2: Table S1
        Header:       #SampleID	county_level_code	age	gender	Bristol_stool_type	fam_income_year_avg	fam_spend_year_avg
                       MetS	anthrop_waist	anthrop_SBP	anthrop_DBP	biochem_FBG	biochem_TG	biochem_HDL
     Row.names:       6896 SampleIDs
-#--------------------------------------------------------
+--------------------------------------------------------
 #########################################################
-3 Scripts
-#--------------------------------------------------------
+
+# 3 Scripts
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-3.1 Perl Scripts
-#--------------------------------------------------------
-3.1.1 Preprocessing.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+## 3.1 Perl Scripts
+--------------------------------------------------------
+### 3.1.1 Preprocessing.pl
+--------------------------------------------------------
          Function:      Pipline of preprocessing, this script performs all processing steps through building the OTU table with several pair of fastq file.
       Last updata:      2016-09-18
            Author:      Huimin Zheng
-#--------------------------------------------------------
-3.1.2 Relate_metadata_with_microbiota.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.2 Relate_metadata_with_microbiota.pl
+--------------------------------------------------------
          Function:      Pipline of geting main results of the paper-Population-based survey linking gut microbiome to economic development and metabolic syndrome.
       Last updata:      2017-04-18
            Author:      Huimin Zheng
-#--------------------------------------------------------
-3.1.3 Illumina_pairend_preprocessing.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.3 Illumina_pairend_preprocessing.pl
+--------------------------------------------------------
          Function:      This script performs all processing steps through building the OTU table with one pair of fastq file.
          Location:      Called by the pipeline--Preprocessing.pl
       Last updata:      2016-08-08
            Author:      Yan He
-#--------------------------------------------------------
-3.1.4 trim_200bp.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.4 trim_200bp.pl
+--------------------------------------------------------
          Function:      Trim the fastq file to 200bp, this can reduce the computational burden while using enough information to do overlapping
          Location:      Called by the script--Illumina_pairend_preprocessing.pl
       Last updata:      2016-08-08
            Author:      Hua-Fang Sheng
-#--------------------------------------------------------
-3.1.5 pairend.extract_sequences.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.5 pairend.extract_sequences.pl
+--------------------------------------------------------
          Function:      Do library splitting, as barcodes on both ends is not quite supported by QIIME at the moment (QIIME 1.9.1)
          Location:      Called by the script--Illumina_pairend_preprocessing.pl
       Last updata:      2016-08-08
            Author:      Yan He
-#--------------------------------------------------------
-3.1.6 merge_adiv_metadata.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.6 merge_adiv_metadata.pl
+--------------------------------------------------------
          Function:      merge the alpha diversity file and metadata file.
          Location:      Called by the pipeline--Relate_metadata_with_microbiota.pl
       Last updata:      2016-08-08
            Author:      Yan He
-#--------------------------------------------------------
-3.1.7 adonis_dilution_curve.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.7 adonis_dilution_curve.pl
+--------------------------------------------------------
          Function:      Examined the significance using adonis analysis on various subsampling sizes with specific replications at each size.
          Location:      Called by the pipeline--Relate_metadata_with_microbiota.pl
       Last updata:      2017-04-16
            Author:      Huimin Zheng
-#--------------------------------------------------------
-3.1.8 adonis_all_metadata.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.8 adonis_all_metadata.pl
+--------------------------------------------------------
          Function:      Do adonis analysis on all variables supplied. 
          Location:      Called by the script--adonis_dilution_curve.pl
       Last updata:      2016-08-08
            Author:      Yan He
-#--------------------------------------------------------
-3.1.9 adonis_dilution_curve_plot.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.9 adonis_dilution_curve_plot.pl
+--------------------------------------------------------
          Function:      Collect the adonis analysis results of script adonis_dilution_curve.pl and plot.
          Location:      Called by the script--Illumina_pairend_preprocessing.pl
       Last updata:      2017-04-16
            Author:      Huimin Zheng
-#--------------------------------------------------------
-3.1.10 maaslin_and_cytoscape.otu.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.10 maaslin_and_cytoscape.otu.pl
+--------------------------------------------------------
          Function:      Do MaAsLin analysis
          Location:      Called by the pipeline--Relate_metadata_with_microbiota.pl
       Last updata:      2016-08-08
            Author:      Yan He
-#--------------------------------------------------------
-3.1.11 add_taxa_to_map.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.11 add_taxa_to_map.pl
+--------------------------------------------------------
          Function:      Add relative abundance of taxa in taxa.list to metadata file.
          Location:      Called by the pipeline--Relate_metadata_with_microbiota.pl
       Last updata:      2017-04-16
            Author:      Huimin Zheng
-#--------------------------------------------------------
-3.1.12 collapsed_metadata.pl
-#--------------------------------------------------------
+--------------------------------------------------------
+### 3.1.12 collapsed_metadata.pl
+--------------------------------------------------------
          Function:      Collapse samples in metadata file. Values in the metadata file are collapsed by means of continuous variables and proportion of categorical variables for each group.
          Location:      Called by the pipeline--Relate_metadata_with_microbiota.pl
       Last updata:      2017-04-16
            Author:      Huimin Zheng
-#--------------------------------------------------------
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-3.2 R Scripts
-#--------------------------------------------------------
-3.2.1 MetS_incidences_between_quartiles.R
-#--------------------------------------------------------
+--------------------------------------------------------
+## 3.2 R Scripts
+--------------------------------------------------------
+#### 3.2.1 MetS_incidences_between_quartiles.R
+--------------------------------------------------------
          Function:      Calculate MetS incidences between quartiles and plot
          Location:      Called by the pipeline--Relate_metadata_with_microbiota.pl
       Last updata:      2017-04-16
            Author:      Pan Li
-#--------------------------------------------------------
+--------------------------------------------------------
 #########################################################
-4 Supplementary files
-#--------------------------------------------------------
+
+# 4 Supplementary files
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-4.1 metadata_category.txt
-#--------------------------------------------------------
+--------------------------------------------------------
+## 4.1 metadata_category.txt
+--------------------------------------------------------
         Supplementary file of maaslin_and_cytoscape.otu.pl
-#--------------------------------------------------------
-4.2 taxa.list
-#--------------------------------------------------------
+--------------------------------------------------------
+## 4.2 taxa.list
+--------------------------------------------------------
         Supplementary file of add_taxa_to_map.pl
-#--------------------------------------------------------
+--------------------------------------------------------
 #########################################################
-5 Direction for use
-#--------------------------------------------------------
+
+# 5 Direction for use
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-5.1 Configuring the system environment files and variables
-#--------------------------------------------------------
-Configuring the system environment files and variables based on the (1) Environment
-#--------------------------------------------------------
+--------------------------------------------------------
+## 5.1 Configuring the system environment files and variables
+--------------------------------------------------------
+       Configuring the system environment files and variables based on the (1) Environment
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-5.2 Location of the files
-#--------------------------------------------------------
-put the scripts, bbmap folder and supplementary files in the same path
-put all fastq files in the same path
-#--------------------------------------------------------
+--------------------------------------------------------
+## 5.2 Location of the files
+--------------------------------------------------------
+      put the scripts, bbmap folder and supplementary files in the same path
+      put all fastq files in the same path
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-5.3  modify Relate_metadata_with_microbiota.pl 
-#--------------------------------------------------------
-5.3.1  modify  Relate_metadata_with_microbiota.pl 
-#--------------------------------------------------------
+--------------------------------------------------------
+## 5.3  modify Relate_metadata_with_microbiota.pl 
+--------------------------------------------------------
+### 5.3.1  modify  Relate_metadata_with_microbiota.pl 
+--------------------------------------------------------
     line 39:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
     line 51:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
-#--------------------------------------------------------
+--------------------------------------------------------
 #########################################################
-#--------------------------------------------------------
-5.4 Run pipeline
-#--------------------------------------------------------
-5.4.1 Preprocessing: From raw sequences to BIOM
-#-------------------------------------------------------- 
-perl Preprocessing.pl <fq_dir> <metadata.list> <threads> <output_dir> 
-<fq_dir>: Path to the folder containing all fastq files.
-<metadata.list>: Path to file listing path to metadata file.
-<threads>: Specify number of threads.
-<output_dir>: The output directory.
-# nohup perl Preprocessing.pl <fq_dir> <metadata.list> <threads> <output_dir> > Preprocessing.log 2>&1 &
-#--------------------------------------------------------
-5.4.2 Relate metadata with microbiota: From BIOM to downstream results
-#--------------------------------------------------------
-perl Relate_metadata_with_microbiota.pl <otu_table.biom> <metadata> <output_dir>
-<otu_table.biom>: The input otu table filepath in biom format.
-<metadata>: Path to the metadata file.
-<output_dir>: The output directory.
-#nohup perl Relate_metadata_with_microbiota.pl <otu_table.biom> <metadata> <output_dir> > Preprocessing.log 2>&1 &
+--------------------------------------------------------
+## 5.4 Run pipeline
+--------------------------------------------------------
+### 5.4.1 Preprocessing: From raw sequences to BIOM
+-------------------------------------------------------- 
+     perl Preprocessing.pl <fq_dir> <metadata.list> <threads> <output_dir> 
+     <fq_dir>: Path to the folder containing all fastq files.
+     <metadata.list>: Path to file listing path to metadata file.
+     <threads>: Specify number of threads.
+     <output_dir>: The output directory.
+     # nohup perl Preprocessing.pl <fq_dir> <metadata.list> <threads> <output_dir> > Preprocessing.log 2>&1 &
+--------------------------------------------------------
+### 5.4.2 Relate metadata with microbiota: From BIOM to downstream results
+--------------------------------------------------------
+     perl Relate_metadata_with_microbiota.pl <otu_table.biom> <metadata> <output_dir>
+     <otu_table.biom>: The input otu table filepath in biom format.
+     <metadata>: Path to the metadata file.
+     <output_dir>: The output directory.
+     #nohup perl Relate_metadata_with_microbiota.pl <otu_table.biom> <metadata> <output_dir> > Preprocessing.log 2>&1 &
 #--------------------------------------------------------
 #########################################################
