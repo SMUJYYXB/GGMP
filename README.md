@@ -159,7 +159,7 @@ QIIME config values
 For definitions of these settings and to learn how to configure QIIME, see here:
  http://qiime.org/install/qiime_config.html
  http://qiime.org/tutorials/parallel_qiime.html
-=======
+
 
                      blastmat_dir:      None
       pick_otus_reference_seqs_fp:      /usr/local/lib/python2.7/site-packages/q                                                                                                                                                             iime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
