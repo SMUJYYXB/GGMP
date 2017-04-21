@@ -1,0 +1,4 @@
+Category	Metadata
+Intrinsic	age
+Intrinsic	gender
+Geology	county_level_code
