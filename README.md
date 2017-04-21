@@ -1,18 +1,19 @@
 # GGMP
 Population-based survey linking gut microbiome to economic development and metabolic syndrome
-################################################################################################################
+
 ## Introduction
 Analysis pipeline for: Population-based survey linking gut microbiome to economic development and metabolic syndrome
 
 ### Copyright
   Copyright:     Prof. Hong-Wei Zhou
-Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine,
-                   Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282
+Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282
       Email:     biodegradation@gmail.com
+      
 ### Author
      Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He 
 Last update:     2017-04-18
       Email:     328093402@qq.com
+      
 ### Index
 1 Environment
     1.1 System
@@ -38,10 +39,10 @@ Last update:     2017-04-18
     4.1 metadata_category.txt
     4.2 taxa.list
 5 Direction for use
-########################################################
+
+
 1 Environment
---------------------------------------------------------
-#########################################################
+
 1.1 System
 -------------------------------------------------------
 1.1.1 System Platform
@@ -92,8 +93,7 @@ Last update:     2017-04-18
     Type: Package
     Title: Maaslin
     Version: 0.0.3
-    Imports: agricolae, gam, gamlss, gbm, glmnet, inlinedocs, logging,
-        MASS, nlme, optparse, outliers, penalized, pscl, robustbase
+    Imports: agricolae, gam, gamlss, gbm, glmnet, inlinedocs, logging, MASS, nlme, optparse, outliers, penalized, pscl, robustbase
     Date: 2014-12-04
     Author: Timothy Tickle<ttickle@hsph.harvard.edu>, Curtis Huttenhower <chuttenh@hsph.harvard.edu>
     Maintainer: Timothy Tickle <ttickle@hsph.harvard.edu>,Ayshwarya
@@ -108,22 +108,22 @@ Last update:     2017-04-18
     Packaged: 2015-04-02 00:28:13 UTC; gweingart
 --------------------------------------------------------
 1.4 Qiime
-#--------------------------------------------------------
+--------------------------------------------------------
 1.4.1 Qiime version
-#--------------------------------------------------------
+--------------------------------------------------------
       Version:      qiime 1.9.1
-#--------------------------------------------------------
+--------------------------------------------------------
 1.4.2 System information
-#--------------------------------------------------------
+--------------------------------------------------------
                Platform:      Linux2
          Python version:      2.7.10 (default, Dec  4 2015, 15:36:19)  [GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
       Python executable:      /usr/local/bin/python
-#--------------------------------------------------------
+--------------------------------------------------------
 1.4.3 QIIME default reference information
-#--------------------------------------------------------
+--------------------------------------------------------
 For details on what files are used as QIIME's default references, see here:
 https://github.com/biocore/qiime-default-reference/releases/tag/0.1.3
-#--------------------------------------------------------
+--------------------------------------------------------
 Dependency versions
 ===================
           QIIME library version:      1.9.1
@@ -145,13 +145,13 @@ qiime-default-reference version:      0.1.3
               sumaclust version:      SUMACLUST Version 1.0.00
                   swarm version:      Swarm 1.2.19 [Dec  5 2015 16:48:11]
                           gdata:      Installed.
-#--------------------------------------------------------
+--------------------------------------------------------
 1.4.4 QIIME config values
-#--------------------------------------------------------
+--------------------------------------------------------
 For definitions of these settings and to learn how to configure QIIME, see here:
  http://qiime.org/install/qiime_config.html
  http://qiime.org/tutorials/parallel_qiime.html
-#--------------------------------------------------------
+--------------------------------------------------------
 QIIME config values
 ===================
 For definitions of these settings and to learn how to configure QIIME, see here:
@@ -183,16 +183,16 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
                       slurm_queue:      None
                       blastall_fp:      blastall
                  seconds_to_sleep:      2
-#--------------------------------------------------------
-#########################################################
+--------------------------------------------------------
 1.5 BBMap
-#-------------------------------------------------------
+-------------------------------------------------------
     BBTools bioinformatics tools, including BBMap.
     Author: Brian Bushnell, Jon Rood
     Language: Java
     Version 36.32
-#--------------------------------------------------------
-#########################################################
+--------------------------------------------------------
+
+
 2 Demo data
 #--------------------------------------------------------
 #########################################################
