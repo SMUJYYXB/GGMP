@@ -45,7 +45,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
     4.2 taxa.list     
     
 5 Direction for use   
---------------------------------------------------------
+
 
 # 1 Environment
 
@@ -133,22 +133,22 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
               QIIME library version:      1.9.1
                QIIME script version:      1.9.1
     qiime-default-reference version:      0.1.3
-                  NumPy version:      1.11.0
-                  SciPy version:      0.17.1
-                 pandas version:      0.17.1
-             matplotlib version:      1.4.3
-            biom-format version:      2.1.5
-                   qcli version:      0.1.1
-                   pyqi version:      0.3.2
-             scikit-bio version:      0.2.3
-                 PyNAST version:      1.2.2
-                Emperor version:      0.9.51
-                burrito version:      0.9.1
-       burrito-fillings version:      0.1.1
-              sortmerna version:      SortMeRNA version 2.0, 29/11/2014
-              sumaclust version:      SUMACLUST Version 1.0.00
-                  swarm version:      Swarm 1.2.19 [Dec  5 2015 16:48:11]
-                          gdata:      Installed.
+                      NumPy version:      1.11.0
+                      SciPy version:      0.17.1
+                     pandas version:      0.17.1
+                 matplotlib version:      1.4.3
+                biom-format version:      2.1.5
+                       qcli version:      0.1.1
+                       pyqi version:      0.3.2
+                 scikit-bio version:      0.2.3
+                     PyNAST version:      1.2.2
+                    Emperor version:      0.9.51
+                    burrito version:      0.9.1
+           burrito-fillings version:      0.1.1
+                  sortmerna version:      SortMeRNA version 2.0, 29/11/2014
+                  sumaclust version:      SUMACLUST Version 1.0.00
+                      swarm version:      Swarm 1.2.19 [Dec  5 2015 16:48:11]
+                              gdata:      Installed.
 --------------------------------------------------------
 ### 1.4.4 QIIME config values
 --------------------------------------------------------
@@ -354,7 +354,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 
 # 4 Supplementary files
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 4.1 metadata_category.txt
 --------------------------------------------------------
@@ -407,5 +407,5 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
      <metadata>: Path to the metadata file.
      <output_dir>: The output directory.
      #nohup perl Relate_metadata_with_microbiota.pl <otu_table.biom> <metadata> <output_dir> > Preprocessing.log 2>&1 &
-#--------------------------------------------------------
+
 
