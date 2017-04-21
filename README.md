@@ -5,15 +5,15 @@ Population-based survey linking gut microbiome to economic development and metab
 Analysis pipeline for: Population-based survey linking gut microbiome to economic development and metabolic syndrome
 
 ### Copyright
-Copyright:     Prof. Hong-Wei Zhou   
-Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282   
-      Email:     biodegradation@gmail.com   
+       Copyright:     Prof. Hong-Wei Zhou   
+     Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282   
+           Email:     biodegradation@gmail.com   
 
       
 ### Author
-Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He    
-Last update:     2017-04-18   
-      Email:     328093402@qq.com   
+         Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He    
+    Last update:     2017-04-18   
+          Email:     328093402@qq.com   
       
 ### Index
 --------------------------------------------------------
@@ -42,7 +42,7 @@ Last update:     2017-04-18
     
 4 Supplementary files   
     4.1 metadata_category.txt   
-    4.2 taxa.list  
+    4.2 taxa.list     
     
 5 Direction for use   
 --------------------------------------------------------
@@ -127,12 +127,12 @@ Last update:     2017-04-18
 --------------------------------------------------------
 ### 1.4.3 QIIME default reference information
 --------------------------------------------------------
-For details on what files are used as QIIME's default references, see here:
-https://github.com/biocore/qiime-default-reference/releases/tag/0.1.3
+    For details on what files are used as QIIME's default references, see here:
+    https://github.com/biocore/qiime-default-reference/releases/tag/0.1.3
 --------------------------------------------------------
-          QIIME library version:      1.9.1
-           QIIME script version:      1.9.1
-qiime-default-reference version:      0.1.3
+              QIIME library version:      1.9.1
+               QIIME script version:      1.9.1
+    qiime-default-reference version:      0.1.3
                   NumPy version:      1.11.0
                   SciPy version:      0.17.1
                  pandas version:      0.17.1
@@ -152,41 +152,40 @@ qiime-default-reference version:      0.1.3
 --------------------------------------------------------
 ### 1.4.4 QIIME config values
 --------------------------------------------------------
-For definitions of these settings and to learn how to configure QIIME, see here:
- http://qiime.org/install/qiime_config.html
- http://qiime.org/tutorials/parallel_qiime.html
+    For definitions of these settings and to learn how to configure QIIME, see here:
+    http://qiime.org/install/qiime_config.html
+    http://qiime.org/tutorials/parallel_qiime.html
 --------------------------------------------------------
-QIIME config values
-===================
-For definitions of these settings and to learn how to configure QIIME, see here:
- http://qiime.org/install/qiime_config.html
- http://qiime.org/tutorials/parallel_qiime.html
+    QIIME config values
 
+    For definitions of these settings and to learn how to configure QIIME, see here:
+    http://qiime.org/install/qiime_config.html
+    http://qiime.org/tutorials/parallel_qiime.html
 
-                     blastmat_dir:      None
-      pick_otus_reference_seqs_fp:      /usr/local/lib/python2.7/site-packages/q                                                                                                                                                             iime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
-                    python_exe_fp:      python
-                         sc_queue:      all.q
-      topiaryexplorer_project_dir:      None
-     pynast_template_alignment_fp:      /usr/local/data/core_set_aligned.fasta.i                                                                                                                                                             mputed
-                  cluster_jobs_fp:      None
-pynast_template_alignment_blastdb:      None
-assign_taxonomy_reference_seqs_fp:      /usr/local/lib/python2.7/site-packages/q                                                                                                                                                             iime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
-                     torque_queue:      friendlyq
-              qiime_test_data_dir:      None
-   template_alignment_lanemask_fp:      /usr/local/data/lanemask_in_1s_and_0s.tx                                                                                                                                                             t
-                    jobs_to_start:      1
-                       slurm_time:      None
-                cloud_environment:      False
-                qiime_scripts_dir:      /usr/local/bin
-            denoiser_min_per_core:      50
-                      working_dir:      None
-assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q                                                                                                                                                             iime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
-                         temp_dir:      /tmp/
-                     slurm_memory:      None
-                      slurm_queue:      None
-                      blastall_fp:      blastall
-                 seconds_to_sleep:      2
+                          blastmat_dir:      None
+           pick_otus_reference_seqs_fp:      /usr/local/lib/python2.7/sitepackages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+                         python_exe_fp:      python
+                              sc_queue:      all.q
+           topiaryexplorer_project_dir:      None
+          pynast_template_alignment_fp:      /usr/local/data/core_set_aligned.fasta.imputed
+                       cluster_jobs_fp:      None
+     pynast_template_alignment_blastdb:      None
+     assign_taxonomy_reference_seqs_fp:      /usr/local/lib/python2.7/sitepackages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+                          torque_queue:      friendlyq
+                   qiime_test_data_dir:      None
+        template_alignment_lanemask_fp:      /usr/local/data/lanemask_in_1s_and_0s.txt
+                         jobs_to_start:      1
+                            slurm_time:      None
+                     cloud_environment:      False
+                     qiime_scripts_dir:      /usr/local/bin
+                 denoiser_min_per_core:      50
+                           working_dir:      None
+     assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/sitepackages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+                              temp_dir:      /tmp/
+                          slurm_memory:      None
+                           slurm_queue:      None
+                           blastall_fp:      blastall
+                      seconds_to_sleep:      2
 --------------------------------------------------------
 ## 1.5 BBMap
 -------------------------------------------------------
@@ -198,7 +197,7 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
 
 # 2 Demo data
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 2.1 original sequences
 --------------------------------------------------------
@@ -241,7 +240,7 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
                                 5.Clean_FCHVJVMBCXX_L2_wHAXPI034525-109_1.fq
                                 5.Clean_FCHVJVMBCXX_L2_wHAXPI034525-109_2.fq
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 2.2 metadata
 --------------------------------------------------------
@@ -250,11 +249,11 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
                       MetS	anthrop_waist	anthrop_SBP	anthrop_DBP	biochem_FBG	biochem_TG	biochem_HDL
     Row.names:       6896 SampleIDs
 --------------------------------------------------------
-#########################################################
+
 
 # 3 Scripts
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 3.1 Perl Scripts
 --------------------------------------------------------
@@ -340,7 +339,7 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
       Last updata:      2017-04-16
            Author:      Huimin Zheng
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 3.2 R Scripts
 --------------------------------------------------------
@@ -351,7 +350,7 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
       Last updata:      2017-04-16
            Author:      Pan Li
 --------------------------------------------------------
-#########################################################
+
 
 # 4 Supplementary files
 --------------------------------------------------------
@@ -365,24 +364,21 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
 --------------------------------------------------------
         Supplementary file of add_taxa_to_map.pl
 --------------------------------------------------------
-#########################################################
 
 # 5 Direction for use
---------------------------------------------------------
-#########################################################
 --------------------------------------------------------
 ## 5.1 Configuring the system environment files and variables
 --------------------------------------------------------
        Configuring the system environment files and variables based on the (1) Environment
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 5.2 Location of the files
 --------------------------------------------------------
       put the scripts, bbmap folder and supplementary files in the same path
       put all fastq files in the same path
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 5.3  modify Relate_metadata_with_microbiota.pl 
 --------------------------------------------------------
@@ -391,7 +387,7 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
     line 39:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
     line 51:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
 --------------------------------------------------------
-#########################################################
+
 --------------------------------------------------------
 ## 5.4 Run pipeline
 --------------------------------------------------------
@@ -412,4 +408,4 @@ assign_taxonomy_id_to_taxonomy_fp:      /usr/local/lib/python2.7/site-packages/q
      <output_dir>: The output directory.
      #nohup perl Relate_metadata_with_microbiota.pl <otu_table.biom> <metadata> <output_dir> > Preprocessing.log 2>&1 &
 #--------------------------------------------------------
-#########################################################
+
