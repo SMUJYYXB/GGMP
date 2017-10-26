@@ -417,7 +417,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 
 ## 6.2 How to get the metadata?      
 --------------------------------------------------------
-     Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.   
+     Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.        
 --------------------------------------------------------
-
+          
 
