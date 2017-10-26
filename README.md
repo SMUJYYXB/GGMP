@@ -32,7 +32,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
         1.4.4 QIIME config values   
     1.5 BBMap   
     
-2 Demo data   
+2 Data   
     2.1 original sequences   
     2.2 metadata   
     
@@ -46,6 +46,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
     
 5 Direction for use   
 
+6 How to get the Demo data?
 
 # 1 Environment
 
@@ -195,7 +196,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
     Version 36.32
 --------------------------------------------------------
 
-# 2 Demo data
+# 2 Data
 
 --------------------------------------------------------
 ## 2.1 original sequences
@@ -399,5 +400,17 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
      <metadata>: Path to the metadata file.
      <output_dir>: The output directory.
      #nohup perl Relate_metadata_with_microbiota.pl <otu_table.biom> <metadata> <output_dir> > Preprocessing.log 2>&1 &
+--------------------------------------------------------
 
 
+# 6 How to get the data?
+--------------------------------------------------------
+## 6.1 How to get the original sequences?
+--------------------------------------------------------
+     The 16S gene sequencing reads of GGMP have been deposited in EBI under accession PRJEB18535.
+--------------------------------------------------------
+
+## 6.2 How to get the metadata?
+--------------------------------------------------------
+     Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.
+--------------------------------------------------------
