@@ -44,11 +44,15 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
     4.1 metadata_category.txt   
     4.2 taxa.list     
     
-5 Direction for use   
+5 Direction for use    
+    5.1 Configuring the system environment files and variables    
+    5.2 Location of the files    
+    5.3 modify Relate_metadata_with_microbiota.pl     
+    5.4 Run pipeline
 
-6 How to get the data   
-    6.1 How to get the original sequences   
-    6.2 How to get the metadata   
+6 How to get the data?   
+    6.1 How to get the original sequences?   
+    6.2 How to get the metadata?   
     
 
 # 1 Environment
@@ -379,8 +383,6 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 
 ## 5.3  modify Relate_metadata_with_microbiota.pl 
 --------------------------------------------------------
-### 5.3.1  modify  Relate_metadata_with_microbiota.pl 
---------------------------------------------------------
     line 39:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
     line 51:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
 --------------------------------------------------------
@@ -413,7 +415,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
      The 16S gene sequencing reads of GGMP have been deposited in EBI under accession PRJEB18535.   
 --------------------------------------------------------
 
-## 6.2 How to get the metadata?   
+## 6.2 How to get the metadata?      
 --------------------------------------------------------
      Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.   
 --------------------------------------------------------
