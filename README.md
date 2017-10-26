@@ -46,9 +46,9 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
     
 5 Direction for use   
 
-6 How to get the data?
-    6.1 How to get the original sequences?
-    6.2 How to get the metadata?
+6 How to get the data   
+    6.1 How to get the original sequences   
+    6.2 How to get the metadata   
     
 
 # 1 Environment
@@ -406,16 +406,16 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 --------------------------------------------------------
 
 
-# 6 How to get the data?
+# 6 How to get the data?   
 --------------------------------------------------------
-## 6.1 How to get the original sequences?
+## 6.1 How to get the original sequences?   
 --------------------------------------------------------
-     The 16S gene sequencing reads of GGMP have been deposited in EBI under accession PRJEB18535.
+     The 16S gene sequencing reads of GGMP have been deposited in EBI under accession PRJEB18535.   
 --------------------------------------------------------
 
-## 6.2 How to get the metadata?
+## 6.2 How to get the metadata?   
 --------------------------------------------------------
-     Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.
+     Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.   
 --------------------------------------------------------
 
 
