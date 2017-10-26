@@ -381,7 +381,7 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
       put all fastq files in the same path
 --------------------------------------------------------
 
-## 5.3  modify Relate_metadata_with_microbiota.pl 
+## 5.3 modify Relate_metadata_with_microbiota.pl 
 --------------------------------------------------------
     line 39:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
     line 51:   get the path of 97_otus.fasta, such as /usr/local/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
@@ -417,7 +417,10 @@ Analysis pipeline for: Population-based survey linking gut microbiome to economi
 
 ## 6.2 How to get the metadata?           
 --------------------------------------------------------      
-     Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.        
+     Please contact Prof. Hong-Wei Zhou(biodegradation@gmail.com) to get a application form for access to the GGMP metadata.        
 --------------------------------------------------------     
-          
+           
+           
+           
+           
 
