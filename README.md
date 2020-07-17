@@ -4,11 +4,6 @@ Population-based survey linking gut microbiome to economic development and metab
 ## Introduction
 Analysis pipeline for: Population-based survey linking gut microbiome to economic development and metabolic syndrome
 
-### Copyright
-       Copyright:     Prof. Hong-Wei Zhou   
-     Institution:     State Key Laboratory of Organ Failure Research, Division of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China, 510282   
-           Email:     biodegradation@gmail.com   
-
       
 ### Author
          Author:     Hui-Min Zheng, Pan Li, Xian Wang and Yan He    
